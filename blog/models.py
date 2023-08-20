@@ -6,6 +6,7 @@ STATUS = ((0, 'Draft'), (1, 'Publish'))
 # Create your models here.
 
 
+# Create a table called Post in DB
 class Post(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
