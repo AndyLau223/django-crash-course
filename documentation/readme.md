@@ -24,3 +24,9 @@ run Django server
 ## python manage.py migrate
 create database table --> generate db.sqlite3 file in your local(dev usage)
 You can use whatever database with your needs in production
+
+## python manage.py createsuperuser
+create admin user for site: http://localhost:8000/admin
+
+## python manage.py startapp blog
+create "blog" app
