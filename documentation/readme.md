@@ -19,8 +19,8 @@ python -m venv env
 * Model: it's corresponding to table in DB
 * View: Python functions or classes that receive a web request and return a web response
 
-# django-admin startproject mysite .
-Initiliza Django project 
+## django-admin startproject mysite .
+Initialize Django project 
 
 ## python manage.py runserver
 run Django server
@@ -35,3 +35,5 @@ create admin user for site: http://localhost:8000/admin
 ## python manage.py startapp blog
 create "blog" app
 
+## python manage.py makemigrations
+apply incremental change in Models, Run `python manage.py makemigrations` then re-run `manage.py migrate` to apply incremental change.
