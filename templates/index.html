@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h1>This is the home page</h1>
+    <ul>
+      {% for post in post_list %}
+      <li>
+        <a href="{% url 'blog_view' post.slug %}">
+          <h2>{{post.title}}</h2>
+        </a>
+      </li>
+      <li><p>{{post.content}}</p></li>
+      <br />
+      {% endfor %}
+    </ul>
   </body>
 </html>
