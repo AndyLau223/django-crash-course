@@ -4,7 +4,7 @@ from django.views import generic
 # Create your views here.
 
 # connect Models and Templates
-#  - get data from database
+#  - get data from database for specific model
 #  - return data to html templates
 
 
