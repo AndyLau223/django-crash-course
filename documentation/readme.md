@@ -14,6 +14,10 @@ python -m venv env
   * Allows you create web app without writing any CSS/HTML, that means you don't need to have front-end experience
   * suitable for small application
 
+# Core Django concept
+
+* Model: it's corresponding to table in DB
+* View: Python functions or classes that receive a web request and return a web response
 
 # django-admin startproject mysite .
 Initiliza Django project 
@@ -30,3 +34,4 @@ create admin user for site: http://localhost:8000/admin
 
 ## python manage.py startapp blog
 create "blog" app
+
